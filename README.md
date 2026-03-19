@@ -72,7 +72,7 @@ src/
 ## ⚙️ Como executar
 
 1.Clone o repositório:
-git clone https://github.com/Luuizz17/Sistema-de-Biblioteca-Java-.git
+git clone https://github.com/Luuizz17/biblioteca.git
 
 2.Abra o projeto em uma IDE:
 
