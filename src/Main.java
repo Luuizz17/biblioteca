@@ -15,11 +15,33 @@ public class Main {
         int opcao;
 
         do {
-            System.out.println("\n1 - Cadastrar livro");
-            System.out.println("2 - Listar livros");
-            System.out.println("3 - Atualizar livro");
-            System.out.println("4 - Remover livro");
-            System.out.println("0 - Sair");
+            System.out.println("==================================");
+            System.out.println("      SISTEMA DE BIBLIOTECA       ");
+            System.out.println("==================================");
+
+            System.out.println("\n📚 LIVROS");
+            System.out.println(" 1 - Cadastrar livro");
+            System.out.println(" 2 - Listar livros");
+            System.out.println(" 3 - Atualizar livro");
+            System.out.println(" 4 - Remover livro");
+
+            System.out.println("\n👤 USUÁRIOS");
+            System.out.println(" 5 - Cadastrar usuário");
+            System.out.println(" 6 - Listar usuários");
+            System.out.println(" 7 - Atualizar usuário");
+            System.out.println(" 8 - Remover usuário");
+
+            System.out.println("\n🔄 EMPRÉSTIMOS");
+            System.out.println(" 9  - Realizar empréstimo");
+            System.out.println(" 10 - Listar empréstimos");
+            System.out.println(" 11 - Devolver livro");
+
+            System.out.println("\n----------------------------------");
+            System.out.println(" 0 - Sair");
+            System.out.println("----------------------------------");
+            System.out.print("Escolha uma opção: ");
+            System.out.print("> ");
+
 
             opcao = sc.nextInt();
             sc.nextLine();
